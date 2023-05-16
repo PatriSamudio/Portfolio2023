@@ -16,7 +16,7 @@ body{
   }
 
     .samu{
-    margin-top:120px ;
+    margin-top:120px;
     color:#fbe4e4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
@@ -26,7 +26,7 @@ body{
     text-transform: uppercase;
     }
 
-   .dio{
+    .dio{
     color:#fff0f0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
@@ -36,7 +36,7 @@ body{
     text-transform: uppercase;
     }
 
-   .c{
+    .c{
     margin-top: 0;
     margin-bottom: 50px;
     color:#fbe4e4;
@@ -67,7 +67,7 @@ section{
 
       .article img{
         width: 100% ;
-        height: auto;
+        height: 480px;
         border: none;
         border-radius: 20px;
         transition: all 500ms ease-out;
@@ -80,7 +80,7 @@ section{
       width: 100%;
       height: 100%;
       cursor: pointer;
-      background: rgb(137 194 194 / 60%);
+      background: rgb(137 194 194 / 70%);
       transition: all 500ms ease-out;
       opacity: 0;
       visibility: hidden;
@@ -133,42 +133,54 @@ section{
   .footer{
     background-color: #89c2c2;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100px;   
+    justify-content:center ;
+    flex-direction: column;
+    width: auto;
+    height: 100px;     
   }
 
-    .pie{
+    .social{
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+      .redes{
+        display: flex;
+        justify-content: space-around;
+        width: 50px;
+        height: 50px;
+      }
+
+      .redes:hover{
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 1px 1px 2px #3c858b;
+      }
+
+    .copy{
       text-align: center;      
       color: #f7f7f7;
       letter-spacing: 2px;
       font-family:Arial, Helvetica, sans-serif;
-      margin: 10px 0;
+      margin: 8px 0;
     }
 
-    .pie p{
+    .copy p{
       font-size: 11px;
-      padding: 4px;
     }
-
-    .social{
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    } 
 
 a{
   text-decoration: none;
-}
- 
+} 
 
 @media all and (max-width:700px) {
   .articulos{
     flex-direction: column;
   }
 }
-
-
 
 @media all and (max-width:450px) {
   .aside{
@@ -199,7 +211,7 @@ a{
     align-items: flex-end;
   }
 
-  .pie h4{
+  .copy h4{
     padding-top: 10px;
   }
 }

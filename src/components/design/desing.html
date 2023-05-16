@@ -6,35 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
   maximum-scale=1.0, minimum-scale=1.0">
-  <title>Desing</title>
+  <title>Diseño</title>
   <link rel="stylesheet" href="./desing.css">
-  <link rel="shortcut icon" href="components/images/logoNegro.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="../images/logos/favirosa.png" type="image/x-icon">
   <script type="module" src="./desing.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <div class="menu">
-      <div class="navbar">
-        <a href="/src/index.html"><img class="logo" src="../images/logoBlanco.svg" alt="Logo Samudio Creations"> </a>
+    <nav class="navbar">
+      <div class="nav-item logo">
+        <a href="/"><img class="logo" src="../images/logos/logoBlanco.png" alt="Logo Samudio Creations"> </a>
       </div>
-      <nav class="nav">
-        <a href="#">Desarrollo</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">CV PDF</a>
-      </nav>
-    </div>
+      <div class="toggle-btn nav-item">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-item list-container">
+        <ul class="link-list">
+          <li class="list-item"><a href="../frontend/frontend.html">Desarrollo </a></li> <br>
+          <li class="list-item"><a href="../aboutme/aboutme.html">Sobre Mi </a></li> <br>
+          <li class="list-item"><a href="../aboutme/aboutme.html">CV pdf </a></li> <br>
+        </ul>
+      </div>
+    </nav>
   </header>
   <section class="container">
     <div class="carrusel">
       <div class="grande">
         <img src="../images/diseño/pattypic.jpg" alt="img" class="img1">
-        <img src="../images/diseño/bravebook.jpg" alt="img" class="img1">
+        <img src="../images/diseño/Bravebooks-.jpg" alt="img" class="img1">
         <img src="../images/diseño/reset.jpg" alt="img" class="img1">
-        <img src="../images/diseño/tarjetas.jpg" alt="img" class="img1">
+        <img src="../images/diseño/muestra.jpg" alt="img" class="img1">
         <img src="../images/diseño/Don ro.jpg" alt="img" class="img1">
 
       </div>
@@ -50,13 +54,17 @@
     </div>
   </section>
   <footer class="footer">
-    <nav class="pie">
-      <p>Desarrollado por Samudio Designs</p>
-      <div class="social">
-        <a href="#">Facebook</a>
-        <a href="#">Linkedin</a>
-        <a href="#">Email</a>
-      </div>
+    <div class="social">
+      <a class="redes" href="https://www.linkedin.com/in/patriciasamudiocabrera/"><img src="../images/logos/linkedn.png"
+          alt="Enlace al linkedin" target="_blank"></a>
+      <a class="redes" href="https://www.linkedin.com/in/patriciasamudiocabrera/"> <img src="../images/logos/GitHub.png"
+          alt="Enlace al github" target="_blank"></a>
+      <a class="redes" href="https://wa.me/34611499620"><img src="../images/logos/wapp.png" alt="Chat on WhatsApp"
+          target="_blank"></a>
+    </div>
+    <nav class="copy">
+      <h5>Desarrollado con 💜 por Samudio Creations</h5>
+      <p>©2023 Todos los derechos reservados | Alicante - España.</p>
     </nav>
   </footer>
   </div>
