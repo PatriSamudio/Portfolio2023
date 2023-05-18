@@ -190,28 +190,50 @@ a{
   }
 
   .samu{
-    font-size: 100px;
+    font-size: 110px;
   }
 
   .dio{
-    font-size: 100px;
+    font-size: 110px;
   }
 
   .c{
     justify-content: center;
   }
   
-  .article img{
+  /* .article img{
     height: 100px;
-  }
+  } */
+
+.section{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 10px;
+}
 
   .footer{
-    height: 80px;
-    font-size: smaller;
-    align-items: flex-end;
+  height: 80px;
+  font-size: smaller;
+  }
+
+  .redes{
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
   }
 
   .copy h4{
-    padding-top: 10px;
+  padding-top: 10px;
   }
 }
+
+/* //fuxia oscuro d54474
+//fucsia claro dc658d
+//rosa ffa7c4
+//gris claro 363c48
+//gris medio 282c35
+//gris oscuro 282c35 - 4e4e4e
+//gris ultrclaro f9fafb
+//negro 222222 */

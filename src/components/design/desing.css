@@ -252,6 +252,15 @@ li{
       margin-top: 15px;
     }
 
+    .container{
+      width: 300px;
+      height: auto;
+    }
+
+      .img1{
+        width: 300px;
+        height: auto;
+      }
 
     .footer{
     height: 80px;
