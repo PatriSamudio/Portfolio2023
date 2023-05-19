@@ -6,6 +6,7 @@
  body{
     background-color: #f8a0a5;
     font-family: Arial, Helvetica, sans-serif;    
+    overflow-x: hidden;
 }
 
 .pdf{
@@ -80,12 +81,14 @@ a:hover{
 
 
     .footer{
-        background-color: #89c2c2;
-        display: flex;
-        justify-content:center ;
-        flex-direction: column;
-        width: auto;
-        height: 100px;     
+      background-color: #89c2c2;
+      display: flex;
+      justify-content:center ;
+      flex-direction: column;
+      width: auto;
+      height: 100px;  
+      margin: 0;
+      padding: 10px;    
       }
     
         .social{
@@ -99,6 +102,7 @@ a:hover{
             justify-content: space-around;
             width: 50px;
             height: 50px;
+            margin-top: 10px;
           }
     
           .redes:hover{
@@ -109,17 +113,18 @@ a:hover{
             box-shadow: 1px 1px 2px #3c858b;
           }
     
-        .copy{
-          text-align: center;      
-          color: #f7f7f7;
-          letter-spacing: 2px;
-          font-family:Arial, Helvetica, sans-serif;
-          margin: 8px 0;
-        }
-    
-        .copy p{
-          font-size: 11px;
-        }     
+          .copy{
+            text-align: center;      
+            color: #f7f7f7;
+            letter-spacing: 2px;
+            font-family:Arial, Helvetica, sans-serif;
+          }
+      
+          .copy p{
+            font-size: 12px;
+            margin: 2px;
+            line-height: 18px;
+          }     
     
 @media all and (max-width:700px) {
     .navbar {
@@ -177,8 +182,8 @@ a:hover{
     .redes{
       display: flex;
       justify-content: center;
-      width: 20px;
-      height: 20px;
+      width: 26px;
+      height: 26px;
     }
 
     .copy h4{

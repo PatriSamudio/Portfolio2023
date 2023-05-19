@@ -5,7 +5,8 @@
 
  body{
     background-color: #f8a0a5;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;  
+    overflow-x: hidden;  
 }
 
 .navbar{
@@ -76,61 +77,71 @@ a{
   
   section{
       background-color: #f8a0a5;
+      display: flex;   
+    }
+
+    .articulos{
+      flex: 2 1 auto;
       display: flex;
-      flex-direction: column;    
-      margin: 10px 50px;    
+      flex-flow: row nowrap;
+      margin: 20px;
     }
   
       article{
-        flex: 1 1 20%;
         display: flex;
         flex-direction: column;
-        border: none;
-        border-radius: 20px;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 50px;
         position: relative;
         overflow: hidden;
+        letter-spacing: 1px;
+        margin: 10px 10px 0 0;
+        flex: 1 1 45%;
+        background: #fab8bc;
+        border: none;
+        border-radius: 20px;
       }
   
         .article img{
-          width: 200px ;
-          height: 200px;
-          border: none;
-          border-radius: 20px;
+          width: 100%;
           transition: all 500ms ease-out;
           opacity: 1;
+          cursor: pointer;
         }
   
-        .article .front {
+        /* .article .front {
         position: absolute;
         top: 0;
         width: 100%;
-        height: 100%;
         cursor: pointer;
         background: rgb(137 194 194 / 70%);
         transition: all 500ms ease-out;
-        opacity: 0;
         visibility: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
-        }
+        } */
   
-        .article h2 {
+        h2 {
         transform: translateX(-200px);      
         opacity: 0;
         transition: all 0.7s ease-in-out;
         color: #fbe4e4;
-        font-size: 40px;
+        font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
         text-transform: uppercase;
-        margin: 10px;
-        padding: 20px;
-        border: 5px solid #fbe4e4;
-        box-shadow: 2px 2px 2px gray;
+        margin: -18px 10px 4px;
+        padding: 0 0 10px;
+        border-bottom: 5px solid #fbe4e4;
         text-shadow: 2px 2px 2px gray;
+        }
+
+        .article p{
+          text-align: center ;
+          font-size: 14px;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-bottom: 20px;
+          padding: 0;
+          color: #4d4c4c;
         }
   
     .article a.link{
@@ -139,11 +150,11 @@ a{
       transform: translateY(100px)
     }
   
-    .article:hover .front {
+    /* .article:hover .front {
       opacity: 1;
       visibility: visible;
     }
-  
+   */
     .article:hover >img{
       transform: scale(1.2);
     }
@@ -165,13 +176,14 @@ a{
       justify-content:center ;
       flex-direction: column;
       width: auto;
-      height: 100px;     
+      height: 100px;  
+      margin: 0;
+      padding: 10px;   
     }
   
       .social{
         display: flex;
-        justify-content: center;
-        margin-top: 10px;
+        justify-content: center;        
       }
   
         .redes{
@@ -179,6 +191,7 @@ a{
           justify-content: space-around;
           width: 50px;
           height: 50px;
+          margin-top: 10px;
         }
   
         .redes:hover{
@@ -194,11 +207,12 @@ a{
         color: #f7f7f7;
         letter-spacing: 2px;
         font-family:Arial, Helvetica, sans-serif;
-        margin: 8px 0;
       }
   
       .copy p{
-        font-size: 11px;
+        font-size: 12px;
+        margin: 2px;
+        line-height: 18px;
       } 
   
   @media all and (max-width:700px) {
@@ -248,6 +262,9 @@ a{
       margin-top: 15px;
     }
 
+    .articulos{
+      flex-direction: column;
+    }
 
     .footer{
     height: 80px;
@@ -257,8 +274,8 @@ a{
     .redes{
       display: flex;
       justify-content: center;
-      width: 20px;
-      height: 20px;
+      width: 26px;
+      height: 26px;
     }
 
     .copy h4{

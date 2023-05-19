@@ -5,6 +5,7 @@
 
 body{
   background-color: #f8a0a5;
+  overflow-x: hidden;
 }
 
 .header{
@@ -200,17 +201,15 @@ a{
   .c{
     justify-content: center;
   }
-  
-  /* .article img{
-    height: 100px;
-  } */
 
-.section{
-  display: flex;
-  flex-direction: column;
-  width: 280px;
-  margin: 10px;
-}
+  .section{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 10px;
+    clip-path: none;
+  }
+
 
   .footer{
   height: 80px;
@@ -220,8 +219,8 @@ a{
   .redes{
     display: flex;
     justify-content: center;
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
   }
 
   .copy h4{
