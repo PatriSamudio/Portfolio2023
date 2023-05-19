@@ -6,7 +6,7 @@ const base = mode === "production" && isGitHubPages ? "/" + folderName : "/";
 
 export default {
   root: "src",
-  base,
+  base: "/portfolio-dev/",
   mode,
   publicDir: "../public",
   build: {
