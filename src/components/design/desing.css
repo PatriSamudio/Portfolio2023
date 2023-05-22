@@ -6,7 +6,7 @@
   body{
     background-color: #f8a0a5;
     font-family: Arial, Helvetica, sans-serif;    
-    overflow-x: hidden;
+   
 }
 
 .navbar{
@@ -104,12 +104,10 @@ a:hover{
         height: auto;
         border: none;
         border-radius: 10px;
-        overflow-y:hidden; 
-        overflow-x:scroll;    
     }
 
         .grande{
-            width: 290%;
+            width: 500%;
             height: auto;
             background-color: #fbe4e4;
             display: flex;
@@ -196,7 +194,8 @@ a:hover{
       flex-direction: column;
       width: auto;
       height: 100px;  
-      padding: 15px;     
+      padding: 15px;
+      margin-top: 50px;     
       }
     
         .social{
@@ -265,6 +264,15 @@ a:hover{
         border-bottom: 1px solid #fbe4e4;
     }
 
+    .grande{
+      width:500% ;
+    }
+
+    .img1{
+      width: auto;
+      height: 490px;
+    }
+
     .toggle-btn {
         display: flex;
     }
@@ -279,8 +287,28 @@ a:hover{
       margin-top: 15px;
     }
 
-    .container{
+    /* .container{
       width: 300px;
+      height: auto;
+      display: flex;
+      overflow: auto;
+      scroll-snap-type:x mandatory;
+      margin: 15px;
+    } */
+
+    .carrusel{
+      flex-shrink: 0;
+      scroll-snap-align: start;
+      width: 100%;
+      height: auto;
+    }
+
+    .grande{
+      width:500% ;
+    }
+
+    .img1{
+      width: 400px;
       height: auto;
     }
 
@@ -301,6 +329,7 @@ a:hover{
     .footer{
     height: 80px;
     font-size: smaller;
+    margin-top: 50px;
     }
 
     .redes{
