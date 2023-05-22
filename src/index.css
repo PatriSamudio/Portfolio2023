@@ -229,9 +229,9 @@ a{
 
   .par{
     color: #fbe4e4;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6; 
-    margin: 10px; 
+    margin: 16px; 
     padding: 10px ;
     text-shadow: 1px 1px 2px #c56262;  
   }
@@ -239,13 +239,19 @@ a{
   .section{
     display: block;
     margin-bottom: 50px;
+    clip-path: none;
   }
 
   .works{
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 360px;
     margin: 10px;
+  }
+
+  .article img{
+    width: 380px;
+    height: auto;
   }
 
 
