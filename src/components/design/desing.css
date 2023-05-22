@@ -68,13 +68,26 @@ a:hover{
   margin-right: 25px;
 }
 
-
 .toggle-btn>span {
   width: 100%;
   height: 2px;
   background: white;
 }
 
+p{
+  color: #fbe4e4;
+  font-size: 14px;
+  line-height: 1.6; 
+  margin:2em;   
+}
+
+  article {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
 
 .container{
     display: flex;
@@ -82,11 +95,10 @@ a:hover{
     margin: 10px;
     max-height: 100%;
     overflow-y: hidden;
-
 }
 
     .carrusel{
-        width: 800px;
+        width: 700%;
         height: auto;
         max-width: 120em;
         background-color: #89c2c2;
@@ -96,7 +108,7 @@ a:hover{
     }
 
         .grande{
-            width: 500%;
+            width: 800%;
             height: auto;
             background-color: #fbe4e4;
             display: flex;
@@ -124,6 +136,15 @@ a:hover{
             height: 490px;
             border: none;
             border-radius: 10px;
+        }
+
+        h3{
+          color: #4d4c4c;
+          font-size: 13px;
+          width: 200px;
+          text-align: center;
+          line-height: 1.4;
+          margin-top: 1em;
         }
         
 li{
@@ -173,15 +194,13 @@ li{
       justify-content:center ;
       flex-direction: column;
       width: auto;
-      height: 100px;  
-      margin: 0;
-      padding: 10px;     
+      height: 150px;  
+      padding: 15px;     
       }
     
         .social{
           display: flex;
-          justify-content: center;
-          
+          justify-content: center;          
         }
     
           .redes{
@@ -204,13 +223,12 @@ li{
             text-align: center;      
             color: #f7f7f7;
             letter-spacing: 2px;
-            font-family:Arial, Helvetica, sans-serif;
           }
       
           .copy p{
             font-size: 12px;
             margin: 2px;
-            line-height: 18px;
+            line-height: 1.4;
           }    
     
 @media all and (max-width:700px) {
