@@ -75,12 +75,15 @@ a:hover{
   background: white;
 }
 
-  p{
-    color: #fbe4e4;
-    font-size: 14px;
-    line-height: 1.6; 
-    margin:2em;   
-  }
+.par{
+  color: #fbe4e4;
+  font-size: 24px;
+  line-height: 1.6; 
+  margin:2em; 
+  padding: 2em;
+  text-align: center; 
+  text-shadow: 1px 1px 2px #c56262;      
+}
 
     article {
       display: block;
@@ -121,7 +124,7 @@ a:hover{
       justify-content:center ;
       flex-direction: column;
       width: auto;
-      height: 150px;  
+      height: 100px;  
       padding: 15px;    
     }
   
@@ -205,16 +208,40 @@ a:hover{
       margin-top: 15px;
     }
 
-    section img{
-      width: auto;
-      flex-grow: 1;
-     
+    .par{
+      color: #fbe4e4;
+      font-size: 14px;
+      line-height: 1.6; 
+      margin: 10px; 
+      padding: 10px ;
+      text-shadow: 1px 1px 2px #c56262;  
     }
 
-    section img:hover{
+    section{
+      display: flex; 
+      width: 100%;
+      height: 100%;
+    }
+
+    .foto{
+      width: 100%;
+      height: auto;
+      flex-grow: 1;
+      object-fit: cover;
+      opacity: 1;
+      transition: 0.5s ease;
+      border: 5px solid #f8a0a5;
+      border-radius: 10px;
+      overflow-y:hidden; 
+      overflow-x:scroll;
+    }
+
+    .foto:active{
       cursor: crosshair;
-      width: 300px;
-      border: none;
+      width: 500px;
+      height: auto;
+      opacity: 1;
+      filter: contrast(120%);
     }
 
     .footer{
@@ -227,9 +254,5 @@ a:hover{
       justify-content: center;
       width: 26px;
       height: 26px;
-    }
-  
-    .copy h4{
-      padding-top: 10px;
     }
   }

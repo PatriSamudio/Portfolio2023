@@ -22,7 +22,6 @@
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: white;
@@ -74,11 +73,14 @@ a:hover{
   background: white;
 }
 
-p{
+.par{
   color: #fbe4e4;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.6; 
-  margin:2em;   
+  margin:2em; 
+  padding: 2em;
+  text-align: center; 
+  text-shadow: 1px 1px 2px #c56262;      
 }
 
   article {
@@ -98,17 +100,16 @@ p{
 }
 
     .carrusel{
-        width: 700%;
+        width: 300%;
         height: auto;
-        max-width: 120em;
-        background-color: #89c2c2;
         border: none;
         border-radius: 10px;
-        overflow: hidden;       
+        overflow-y:hidden; 
+        overflow-x:scroll;    
     }
 
         .grande{
-            width: 800%;
+            width: 290%;
             height: auto;
             background-color: #fbe4e4;
             display: flex;
@@ -140,14 +141,14 @@ p{
 
         h3{
           color: #4d4c4c;
-          font-size: 13px;
-          width: 200px;
+          font-size: 14px;
+          width: auto;
           text-align: center;
           line-height: 1.4;
           margin-top: 1em;
         }
         
-li{
+/* li{
     list-style: none;
 }
 
@@ -186,7 +187,7 @@ li{
 
     .punto.activo{
         background-color: #89c2c2;
-    }
+    } */
 
     .footer{
       background-color: #89c2c2;
@@ -194,7 +195,7 @@ li{
       justify-content:center ;
       flex-direction: column;
       width: auto;
-      height: 150px;  
+      height: 100px;  
       padding: 15px;     
       }
     
@@ -283,6 +284,15 @@ li{
       height: auto;
     }
 
+    .par{
+      color: #fbe4e4;
+      font-size: 14px;
+      line-height: 1.6; 
+      margin: 10px; 
+      padding: 10px ;
+      text-shadow: 1px 1px 2px #c56262;  
+    }
+
       .img1{
         width: 300px;
         height: auto;
@@ -298,9 +308,5 @@ li{
       justify-content: center;
       width: 26px;
       height: 26px;
-    }
-
-    .copy h4{
-    padding-top: 10px;
     }
 }

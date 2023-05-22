@@ -6,6 +6,7 @@
 body{
   background-color: #f8a0a5;
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -18,8 +19,7 @@ body{
 
     .samu{
     margin-top:120px;
-    color:#fbe4e4;
-    font-family: Arial, Helvetica, sans-serif;
+    color:#fbe4e4;    
     font-size: 150px;
     font-weight: bold;
     display: flex;
@@ -29,7 +29,6 @@ body{
 
     .dio{
     color:#fbe4e4;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
     font-weight: bold;
     display:flex;
@@ -41,18 +40,19 @@ body{
     margin-top: 0;
     margin-bottom: 50px;
     color:#fbe4e4;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     justify-self: left;
     display:flex;
     } 
 
-    p{
+    .par{
       color: #fbe4e4;
       font-size: 24px;
       line-height: 1.6; 
       margin:3em; 
-      text-align: center;  
+      padding: 3em;
+      text-align: center; 
+      text-shadow: 1px 1px 2px #c56262;      
     }
     
       .section {
@@ -76,8 +76,8 @@ section{
       flex: 1 1 20%;
       border: none;
       border-radius: 20px;
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
       margin-bottom: 50px;
       position: relative;
       overflow: hidden;
@@ -85,7 +85,7 @@ section{
 
       .article img{
         width: 100% ;
-        height: 500px;
+        height: 550px;
         border: none;
         border-radius: 20px;
         transition: all 500ms ease-out;
@@ -154,7 +154,7 @@ section{
     justify-content:center ;
     flex-direction: column;
     width: auto;
-    height: 150px;  
+    height: 100px;  
     padding: 15px;   
   }
 
@@ -227,12 +227,25 @@ a{
     width: auto;
   }
 
-  section{
+  .par{
+    color: #fbe4e4;
+    font-size: 14px;
+    line-height: 1.6; 
+    margin: 10px; 
+    padding: 10px ;
+    text-shadow: 1px 1px 2px #c56262;  
+  }
+
+  .section{
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .works{
     display: flex;
     flex-direction: column;
     width: 380px;
     margin: 10px;
-    clip-path: none;
   }
 
 
@@ -246,10 +259,6 @@ a{
     justify-content: center;
     width: 26px;
     height: 26px;
-  }
-
-  .copy h4{
-  padding-top: 10px;
   }
 }
 

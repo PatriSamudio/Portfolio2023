@@ -9,10 +9,6 @@
     overflow-x: hidden;
 }
 
-.pdf{
-  margin: 10px;
-}
-
 .navbar{
   width: 100%;
   display: flex;
@@ -79,20 +75,29 @@ a:hover{
   background: white;
 }
 
-p{
+.par{
   color: #fbe4e4;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.6; 
-  margin:2em;   
+  margin:2em; 
+  padding: 2em;
+  text-align: center; 
+  text-shadow: 1px 1px 2px #c56262;      
 }
 
-  article {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-  }
+    article {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+    }
+
+    .pdf{
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+    }
 
     .footer{
       background-color: #89c2c2;
@@ -100,7 +105,7 @@ p{
       justify-content:center ;
       flex-direction: column;
       width: auto;
-      height: 150px;  
+      height: 100px;  
       padding: 15px;    
       }
     
@@ -152,7 +157,6 @@ p{
 
     .flex {
       display: flex;
-
    }
 
     .link-list {
@@ -184,6 +188,22 @@ p{
       margin-top: 15px;
     }
 
+    .par{
+      color: #fbe4e4;
+      font-size: 14px;
+      line-height: 1.6; 
+      margin: 10px; 
+      padding: 10px ;
+      text-shadow: 1px 1px 2px #c56262;  
+    }
+    
+      article {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+      }
 
     .footer{
     height: 80px;
@@ -195,9 +215,5 @@ p{
       justify-content: center;
       width: 26px;
       height: 26px;
-    }
-
-    .copy h4{
-    padding-top: 10px;
     }
 }
