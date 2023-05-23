@@ -4,7 +4,7 @@
   }
 
   body{
-    background-color: #f8a0a5;
+    background-color: #ff6b84;
     font-family: Arial, Helvetica, sans-serif;    
    
 }
@@ -38,7 +38,7 @@ a{
 }
 
 a:hover{
-  text-shadow: 1px 2px 2px #4d4c4c;
+  text-shadow: 1px 2px 2px #a55a5a;
 }
 
 .logo{
@@ -74,13 +74,13 @@ a:hover{
 }
 
 .par{
-  color: #fbe4e4;
+  color: white;
   font-size: 24px;
   line-height: 1.6; 
   margin:2em; 
   padding: 2em;
   text-align: center; 
-  text-shadow: 1px 1px 2px #c56262;      
+  text-shadow: 1px 1px 2px #a55a5a;      
 }
 
   article {
@@ -109,7 +109,7 @@ a:hover{
         .grande{
             width: 500%;
             height: auto;
-            background-color: #fbe4e4;
+            background-color: #ff889c;
             display: flex;
             flex-flow: row nowrap;
             justify-content: space-between;
@@ -118,7 +118,7 @@ a:hover{
             border: none;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
-            box-shadow: 3px 2px 2px #4d4c4c;
+            box-shadow: 3px 2px 2px #a55a5a;
             transition: all 0.5s ease;
             transform: translateX(0%);
         }
@@ -127,7 +127,7 @@ a:hover{
             width: calc(100% / 2 - 2em);
             min-height: 10vh;
             background-color: gray ;
-            box-shadow: 4px 5px 5px #4d4c4c;
+            box-shadow: 4px 5px 5px #a55a5a;
         }
 
         .img1{
@@ -138,14 +138,14 @@ a:hover{
         }
 
         h3{
-          color: #4d4c4c;
+          color: white;
           font-size: 14px;
           width: auto;
           text-align: center;
           line-height: 1.4;
           margin-top: 1em;
-          font-weight: lighter;
           letter-spacing: 1px;
+          font-weight: bolder;
         }
         
 /* li{
@@ -160,7 +160,7 @@ a:hover{
         .puntos{
             width: 300px;
             height: 20px;
-            background-color: #fbe4e4;
+            background-color: white;
             margin: 6px;
             padding: 2px;
             display: flex;
@@ -173,11 +173,11 @@ a:hover{
         .punto{
             width: 12px;
             height: 12px;
-            background-color: #fbe4e4;
+            background-color: white;
             margin: 12px;
-            border: 1px solid #4d4c4c;
+            border: 1px solid #c56c6c;
             border-radius: 50%;
-            box-shadow: 2px 2px 2px #4d4c4c;
+            box-shadow: 2px 2px 2px #c56c6c;
             cursor: pointer;
         }
 
@@ -190,7 +190,7 @@ a:hover{
     } */
 
     .footer{
-      background-color: #89c2c2;
+      background-color: #61c3c3;
       display: flex;
       justify-content:center ;
       flex-direction: column;
@@ -223,7 +223,7 @@ a:hover{
     
           .copy{
             text-align: center;      
-            color: #f7f7f7;
+            color: white;
             letter-spacing: 2px;
           }
       
@@ -263,7 +263,7 @@ a:hover{
         text-align: center;
         margin: 0;
         padding: 4px;
-        border-bottom: 1px solid #fbe4e4;
+        border-bottom: 1px solid white;
     }
 
     .grande{
@@ -310,23 +310,18 @@ a:hover{
     }
 
     .img1{
-      width: 400px;
+      width: 350px;
       height: auto;
     }
 
     .par{
-      color: #fbe4e4;
+      color: white;
       font-size: 16px;
       line-height: 1.6; 
       margin: 10px; 
       padding: 10px ;
-      text-shadow: 1px 1px 2px #c56262;  
+      text-shadow: 1px 1px 2px #a55a5a;  
     }
-
-      .img1{
-        width: 300px;
-        height: auto;
-      }
 
     .footer{
     height: 80px;

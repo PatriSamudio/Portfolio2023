@@ -4,7 +4,7 @@
  }
 
  body{
-    background-color: #f8a0a5;
+    background-color: #ff6b84;
     font-family: Arial, Helvetica, sans-serif; 
     overflow-x: hidden;
   }
@@ -75,7 +75,7 @@ a{
   }   
 
   .par{
-    color: #fbe4e4;
+    color: white;
     font-size: 24px;
     line-height: 1.6; 
     margin:2em; 
@@ -94,7 +94,7 @@ a{
     }
   
   section{
-      background-color: #f8a0a5;
+      background-color: #ff6b84;
       display: flex; 
     }
 
@@ -113,7 +113,7 @@ a{
         letter-spacing: 1px;
         margin: 20px 30px 0 0;
         flex: 1 1 45%;
-        background: #fab8bc;
+        background: #ff889c;
         border: none;
         border-radius: 20px;
       }
@@ -126,14 +126,14 @@ a{
         }        
   
         h2 {
-        color: #fbe4e4;
+        color: white;
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
         text-transform: uppercase;
         margin: 10px 10px 4px;
         padding: 0 0 10px;
-        border-bottom: 5px solid #fbe4e4;
-        text-shadow: 1px 1px 2px #c56c6c;
+        border-bottom: 5px solid white;
+        text-shadow: 1px 1px 2px #c56262;
         cursor: pointer;
         }
 
@@ -142,11 +142,11 @@ a{
           font-size: 14px;
           margin: 30px;
           padding: 0;
-          color: #4d4c4c;
+          color: white;
         }
         
     .footer{
-      background-color: #89c2c2;
+      background-color: #61c3c3;
       display: flex;
       justify-content:center ;
       flex-direction: column;
@@ -178,7 +178,7 @@ a{
   
       .copy{
         text-align: center;      
-        color: #f7f7f7;
+        color: white;
         letter-spacing: 2px;
       }
   
@@ -218,7 +218,7 @@ a{
       text-align: center;
       margin: 0;
       padding: 4px;
-      border-bottom: 1px solid #fbe4e4;
+      border-bottom: 1px solid white;
   }
 
   .toggle-btn {
@@ -236,7 +236,7 @@ a{
     }
 
     .par{
-      color: #fbe4e4;
+      color: white;
       font-size: 16px;
       line-height: 1.6; 
       margin: 10px; 

@@ -4,7 +4,7 @@
  }
 
  body{
-    background-color: #f8a0a5;
+    background-color: #ff6b84;
     font-family: Arial, Helvetica, sans-serif;    
     overflow-x: hidden;
 }
@@ -76,7 +76,7 @@ a:hover{
 }
 
 .par{
-  color: #fbe4e4;
+  color: white;
   font-size: 24px;
   line-height: 1.6; 
   margin:2em; 
@@ -100,7 +100,7 @@ a:hover{
     }
 
     .footer{
-      background-color: #89c2c2;
+      background-color: #61c3c3;
       display: flex;
       justify-content:center ;
       flex-direction: column;
@@ -132,7 +132,7 @@ a:hover{
     
           .copy{
             text-align: center;      
-            color: #f7f7f7;
+            color: white;
             letter-spacing: 2px;
           }
       
@@ -171,7 +171,7 @@ a:hover{
         text-align: center;
         margin: 0;
         padding: 4px;
-        border-bottom: 1px solid #fbe4e4;
+        border-bottom: 1px solid white;
     }
 
     .toggle-btn {
@@ -189,7 +189,7 @@ a:hover{
     }
 
     .par{
-      color: #fbe4e4;
+      color: white;
       font-size: 16px;
       line-height: 1.6; 
       margin: 10px; 

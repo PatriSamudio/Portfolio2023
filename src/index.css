@@ -4,13 +4,13 @@
 }
 
 body{
-  background-color: #f8a0a5;
+  background-color: #ff6b84;
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
-  background-color: #f8a0a5;
+  background-color: #ff6b84;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -19,7 +19,7 @@ body{
 
     .samu{
     margin-top:120px;
-    color:#fbe4e4;    
+    color:white;    
     font-size: 150px;
     font-weight: bold;
     display: flex;
@@ -28,7 +28,7 @@ body{
     }
 
     .dio{
-    color:#fbe4e4;
+    color:white;
     font-size: 150px;
     font-weight: bold;
     display:flex;
@@ -39,20 +39,19 @@ body{
     .c{
     margin-top: 0;
     margin-bottom: 50px;
-    color:#fbe4e4;
+    color:white;
     font-size: 50px;
     justify-self: left;
     display:flex;
     } 
 
     .par{
-      color: #fbe4e4;
+      color: white;
       font-size: 24px;
       line-height: 1.6; 
-      margin:3em; 
+      margin:4em; 
       padding: 3em;
       text-align: center; 
-      text-shadow: 1px 1px 2px #c56262;   
       font-weight: bolder;   
     }
     
@@ -67,7 +66,7 @@ body{
       }
 
 section{
-    background-color: #f8a0a5;
+    background-color: #ff6b84;
     display: flex;    
     flex: 3 1 auto;     
     margin: 10px 50px;    
@@ -112,13 +111,13 @@ section{
       transform: translateX(-200px);      
       opacity: 0;
       transition: all 0.7s ease-in-out;
-      color: #fbe4e4;
+      color: white;
       font-size: 40px;
       font-family: Arial, Helvetica, sans-serif;
       text-transform: uppercase;
       margin: 10px;
       padding: 20px;
-      border: 5px solid #fbe4e4;
+      border: 5px solid white;
       box-shadow: 2px 2px 2px gray;
       text-shadow: 2px 2px 2px gray;
       }
@@ -150,7 +149,7 @@ section{
   }
       
   .footer{
-    background-color: #89c2c2;
+    background-color: #61c3c3;
     display: flex;
     justify-content:center ;
     flex-direction: column;
@@ -169,7 +168,7 @@ section{
         justify-content: space-around;
         width: 50px;
         height: 50px;
-        margin-top: 10px;
+        margin: 8px 10px 5px;
       }
 
       .redes:hover{
@@ -182,7 +181,7 @@ section{
 
       .copy{
         text-align: center;      
-        color: #f7f7f7;
+        color: white;
         letter-spacing: 2px;
       }
   
@@ -197,18 +196,13 @@ a{
 } 
 
 @media all and (max-width:700px) {
-  .articulos{
+  .works{
     flex-direction: column;
+    justify-content: center;
   }
 }
 
 @media all and (max-width:450px) {
-  .aside{
-    flex-direction: column;
-    justify-content: center;
-    height: 120px;
-  }
-
   .samu{
     font-size: 110px;
     margin-top: 200px;
@@ -229,12 +223,11 @@ a{
   }
 
   .par{
-    color: #fbe4e4;
+    color: white;
     font-size: 14px;
     line-height: 1.6; 
-    margin: 10px; 
+    margin: 16px; 
     padding: 10px ;
-    text-shadow: 1px 1px 2px #c56262;  
   }
 
   .section{
@@ -249,7 +242,6 @@ a{
     width: 380px;
     margin: 10px;
   }
-
 
   .footer{
   height: 80px;
