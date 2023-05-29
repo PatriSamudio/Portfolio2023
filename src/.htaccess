@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^index.html$ SamudioCreations.html [L]
+RewriteRule ^$ SamudioCreations.html [L]
