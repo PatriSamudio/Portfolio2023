@@ -6,7 +6,6 @@
  body{
     background-color: #f8a0a5;
     font-family: Arial, Helvetica, sans-serif;   
-    overflow-x: hidden; 
 }
 
 .navbar{
@@ -67,7 +66,6 @@ a:hover{
   margin-top: 40px;
   margin-right: 25px;
 }
-
 
 .toggle-btn>span {
   width: 100%;
@@ -179,7 +177,6 @@ a:hover{
 
   .flex {
     display: flex;
-
  }
 
   .link-list {
@@ -230,14 +227,16 @@ a:hover{
       height: 100%;
       overflow: auto;
       scroll-snap-type:x mandatory;
-      margin: 15px;
+      margin: 0;
     }
+    
 
     .foto{
       flex-shrink: 0;
       scroll-snap-align: start;
-      width: 100%;
+      width: 320px;
       height: auto;
+      margin: 6px;
 
       /* flex-grow: 1;
       object-fit: cover;
@@ -249,7 +248,7 @@ a:hover{
 
     .foto:active{
       cursor: crosshair;
-      width: 500px;
+      width: 320px;
       height: auto;
       opacity: 1;
       filter: contrast(120%);
