@@ -4,7 +4,7 @@
  }
 
  body{
-    background-color: #ff6b84;
+    background-color: #f8a0a5;
     font-family: Arial, Helvetica, sans-serif; 
     overflow-x: hidden;
   }
@@ -39,7 +39,7 @@ a{
 }
 
   a:hover{
-    text-shadow: 1px 2px 2px #4d4c4c;
+    text-shadow: 1px 2px 2px #9e474b;
   }
 
 .logo{
@@ -78,10 +78,11 @@ a{
     color: white;
     font-size: 24px;
     line-height: 1.6; 
-    margin:2em; 
+    margin: 2em 4em 0; 
     padding: 2em;
     text-align: center; 
-    text-shadow: 1px 1px 2px #c56262;      
+    text-shadow: 1px 1px 2px #9e474b;   
+    font-weight: bolder;
   }
   
     .intro{
@@ -94,7 +95,7 @@ a{
     }
   
   section{
-      background-color: #ff6b84;
+      background-color: #f8a0a5;
       display: flex; 
     }
 
@@ -102,7 +103,7 @@ a{
       flex: 2 1 auto;
       display: flex;
       flex-flow: row nowrap;
-      margin: 0 30px 40px;
+      margin: 10px 30px 40px;
     }
   
       article{
@@ -113,10 +114,15 @@ a{
         letter-spacing: 1px;
         margin: 20px 30px 0 0;
         flex: 1 1 45%;
-        background: #ff889c;
+        background: #f89297;
         border: none;
         border-radius: 20px;
       }
+
+        .article:hover{
+          transform: scale(1.1);
+          transition: ease 0.5s;
+        }
 
         .article img{
           width: 100%;
@@ -133,7 +139,7 @@ a{
         margin: 10px 10px 4px;
         padding: 0 0 10px;
         border-bottom: 5px solid white;
-        text-shadow: 1px 1px 2px #c56262;
+        text-shadow: 1px 1px 2px #a55a5a;   
         cursor: pointer;
         }
 
@@ -143,6 +149,9 @@ a{
           margin: 30px;
           padding: 0;
           color: white;
+          text-shadow: 1px 1px 2px #a55a5a; 
+          letter-spacing: 1px;  
+
         }
         
     .footer{
@@ -153,6 +162,7 @@ a{
       width: auto;
       height: 100%;  
       padding: 15px;   
+      margin-top: 50px;
     }
   
       .social{
@@ -165,7 +175,7 @@ a{
           justify-content: space-around;
           width: 50px;
           height: 50px;
-          margin-top: 10px;
+          margin: 8px 10px 5px;
         }
   
         .redes:hover{
@@ -179,6 +189,7 @@ a{
       .copy{
         text-align: center;      
         color: white;
+        text-shadow: 1px 1px 2px #3c858b;   
         letter-spacing: 2px;
       }
   
@@ -241,7 +252,7 @@ a{
       line-height: 1.6; 
       margin: 10px; 
       padding: 10px ;
-      text-shadow: 1px 1px 2px #c56262;  
+      text-shadow: 1px 1px 2px #a55a5a;  
     }
 
     .articulos{

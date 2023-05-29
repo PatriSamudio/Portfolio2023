@@ -4,7 +4,7 @@
  }
 
  body{
-    background-color: #ff6b84;
+    background-color: #f8a0a5;
     font-family: Arial, Helvetica, sans-serif;    
     overflow-x: hidden;
 }
@@ -39,7 +39,7 @@ a{
 }
 
 a:hover{
-  text-shadow: 1px 2px 2px #4d4c4c;
+  text-shadow: 1px 2px 2px #9e474b
 }
 
 .logo{
@@ -77,12 +77,13 @@ a:hover{
 
 .par{
   color: white;
+  text-shadow: 2px 2px 2px #9e474b;
   font-size: 24px;
   line-height: 1.6; 
   margin:2em; 
   padding: 2em;
   text-align: center; 
-  text-shadow: 1px 1px 2px #c56262;      
+  font-weight: bolder;      
 }
 
     article {
@@ -106,7 +107,8 @@ a:hover{
       flex-direction: column;
       width: auto;
       height: 100px;  
-      padding: 15px;    
+      padding: 15px;  
+      margin-top: 50px;   
       }
     
         .social{
@@ -119,7 +121,7 @@ a:hover{
             justify-content: space-around;
             width: 50px;
             height: 50px;
-            margin-top: 10px;
+            margin: 8px 10px 5px;
           }
     
           .redes:hover{
@@ -133,6 +135,7 @@ a:hover{
           .copy{
             text-align: center;      
             color: white;
+            text-shadow: 1px 1px 2px #3c858b;
             letter-spacing: 2px;
           }
       
@@ -193,8 +196,7 @@ a:hover{
       font-size: 16px;
       line-height: 1.6; 
       margin: 10px; 
-      padding: 10px ;
-      text-shadow: 1px 1px 2px #c56262;  
+      padding: 10px ; 
     }
     
       article {
@@ -208,6 +210,7 @@ a:hover{
     .footer{
     height: 80px;
     font-size: smaller;
+    margin-top: 50px;
     }
 
     .redes{

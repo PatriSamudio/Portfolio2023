@@ -4,7 +4,7 @@
  }
 
  body{
-    background-color: #ff6b84;
+    background-color: #f8a0a5;
     font-family: Arial, Helvetica, sans-serif;   
     overflow-x: hidden; 
 }
@@ -39,7 +39,7 @@ a{
 }
 
 a:hover{
-  text-shadow: 1px 2px 2px #4d4c4c;
+  text-shadow: 1px 2px 2px #9e474b;
 }
 
 .logo{
@@ -79,10 +79,11 @@ a:hover{
   color: white;
   font-size: 24px;
   line-height: 1.6; 
-  margin:2em; 
+  margin: 2em 4em 0; 
   padding: 2em;
   text-align: center; 
-  text-shadow: 1px 1px 2px #c56262;      
+  text-shadow: 1px 1px 2px #9e474b; 
+  font-weight: bolder;
 }
 
     article {
@@ -107,7 +108,7 @@ a:hover{
       object-fit: cover;
       opacity: 1;
       transition: 0.5s ease;
-      border: 5px solid #ff6b84;
+      border: 5px solid #f8a0a5;
       border-radius: 10px;
     }
 
@@ -139,7 +140,7 @@ a:hover{
           justify-content: space-around;
           width: 50px;
           height: 50px;
-          margin-top: 10px;
+          margin: 8px 10px 5px;
         }
   
         .redes:hover{
@@ -153,6 +154,7 @@ a:hover{
         .copy{
           text-align: center;      
           color: white;
+          text-shadow: 1px 1px 2px #3c858b;   
           letter-spacing: 2px;
         }
     
@@ -219,7 +221,7 @@ a:hover{
       line-height: 1.6; 
       margin: 10px; 
       padding: 10px ;
-      text-shadow: 1px 1px 2px #c56262;  
+      text-shadow: 1px 1px 2px #a55a5a;  
     }
 
     section{
@@ -241,7 +243,7 @@ a:hover{
       object-fit: cover;
       opacity: 1;
       transition: 0.5s ease;
-      border: 5px solid #ff6b84;
+      border: 5px solid #f8a0a5;
       border-radius: 10px; */
     }
 

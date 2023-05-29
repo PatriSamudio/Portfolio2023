@@ -4,13 +4,13 @@
 }
 
 body{
-  background-color: #ff6b84;
+  background-color: #f8a0a5;
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
-  background-color: #ff6b84;
+  background-color: #f8a0a5;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -19,7 +19,8 @@ body{
 
     .samu{
     margin-top:120px;
-    color:white;    
+    color:white; 
+    text-shadow: 2px 2px 2px #9e474b;   
     font-size: 150px;
     font-weight: bold;
     display: flex;
@@ -29,6 +30,7 @@ body{
 
     .dio{
     color:white;
+    text-shadow: 2px 2px 2px #9e474b;   
     font-size: 150px;
     font-weight: bold;
     display:flex;
@@ -40,6 +42,7 @@ body{
     margin-top: 0;
     margin-bottom: 50px;
     color:white;
+    text-shadow: 1px 2px 2px #9e474b;   
     font-size: 50px;
     justify-self: left;
     display:flex;
@@ -47,12 +50,13 @@ body{
 
     .par{
       color: white;
+      text-shadow: 1px 1px 2px #9e474b;   
       font-size: 24px;
       line-height: 1.6; 
       margin:4em; 
       padding: 3em;
-      text-align: center; 
-      font-weight: bolder;   
+      text-align: center;  
+      font-weight: bolder;
     }
     
       .section {
@@ -66,7 +70,7 @@ body{
       }
 
 section{
-    background-color: #ff6b84;
+    background-color: #f8a0a5;
     display: flex;    
     flex: 3 1 auto;     
     margin: 10px 50px;    
@@ -118,8 +122,8 @@ section{
       margin: 10px;
       padding: 20px;
       border: 5px solid white;
-      box-shadow: 2px 2px 2px gray;
-      text-shadow: 2px 2px 2px gray;
+      box-shadow: 2px 2px 2px #3c858b;
+      text-shadow: 2px 2px 2px #3c858b;
       }
 
   .article a.link{
@@ -182,6 +186,7 @@ section{
       .copy{
         text-align: center;      
         color: white;
+        text-shadow: 1px 1px 2px #3c858b;   
         letter-spacing: 2px;
       }
   
